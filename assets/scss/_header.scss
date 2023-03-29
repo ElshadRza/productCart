@@ -1,0 +1,63 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .add-product {
+    font-family: Bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      margin-left: 10px;
+      width: 20px;
+    }
+  }
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    input {
+      border-radius: 20px;
+      height: 40px;
+      width: 220px;
+    }
+    input::placeholder {
+      text-align: center;
+      font-family: Light;
+    }
+    input[type="text"] {
+      text-align: center;
+      font-family: Light;
+    }
+    img {
+      margin-left: 5px;
+      width: 30px;
+    }
+  }
+  .logo {
+    font-family: Bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      margin: 20px 5px;
+      width: 70px;
+    }
+  }
+
+  .cart {
+    width: 10%;
+    font-family: Light;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 40px;
+    }
+  }
+}
